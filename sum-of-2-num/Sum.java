@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
 public class Sum {
-    public static void main(String[] args){
-         System.out.println("Please provide 2 numbers: ");
+    public static void main(String[] args) {
+        System.out.print("Please provide 2 numbers: ");
         Scanner in = new Scanner(System.in);
-        int a = in.nextInt();
-        int b = in.nextInt();
-        System.out.println("Sum is: " + (a + b) );
+        double a = in.nextDouble();
+        double b = in.nextDouble();
+
+        System.out.println("Sum: " + (a + b)); 
     }
 }
